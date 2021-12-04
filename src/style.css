@@ -1,0 +1,7 @@
+.ic__flap-logo-text {
+  position: absolute;
+  width: 87px;
+  height: 123px;
+  left: calc(50% - 87px / 2 + 0.5px);
+  top: calc(50% - 123px / 2 + 0.5px);
+}
