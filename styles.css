@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "login.css";
+
+@font-face {
+  font-family: "BinggraeMelona";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "BinggraeMelona";
+}
+
+.flap-logo-text {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
