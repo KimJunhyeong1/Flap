@@ -2,7 +2,6 @@
 @import "variables.css";
 
 /* components */
-@import "components/mamber_info_bar.css";
 
 /* screen */
 @import "screen/loading.css";
@@ -17,12 +16,11 @@
   font-style: normal;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: "BinggraeMelona";
-  height: calc(var(--vh, 1vh) * 100);
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }

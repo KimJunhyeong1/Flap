@@ -23,4 +23,5 @@
   letter-spacing: normal;
   text-align: left;
   color: var(--primary-black);
+  white-space: nowrap;
 }
