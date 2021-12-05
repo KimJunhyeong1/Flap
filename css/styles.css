@@ -2,11 +2,12 @@
 @import "variables.css";
 
 /* components */
-@import "screen/member_info_name.css";
+@import "components/mamber_info_bar.css";
 
 /* screen */
 @import "screen/loading.css";
 @import "screen/login.css";
+@import "screen/member_info_name.css";
 
 @font-face {
   font-family: "BinggraeMelona";
