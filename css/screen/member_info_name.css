@@ -44,8 +44,6 @@
   border-bottom-style: solid;
 }
 
-
-
 .ninkname-form__nickname-input {
   width: 31rem;
   height: 2.4rem;
@@ -61,12 +59,11 @@
   padding: 0.8rem;
 }
 
-.ninkname-form__nickname-input::placeholder
-{
+.ninkname-form__nickname-input::placeholder {
   color: var(--primary-gray);
 }
 
-.ninkname-form__nickname-input:focus{
+.ninkname-form__nickname-input:focus {
   outline: none;
   border: 0rem solid white;
   border-bottom-color: var(--primary-light-blue);
@@ -74,7 +71,7 @@
   border-bottom-style: solid;
 }
 
-.input-form__primary-btn-false{
+.input-form__primary-btn-false {
   width: 31rem;
   height: 4rem;
   flex-grow: 0;
@@ -88,5 +85,4 @@
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.17), 0 4px 4px 0 rgba(0, 0, 0, 0.08);
   border: solid 0.5px var(--button-stroke);
   background-color: var(--button-inactive-light-blue);
-}
 }
