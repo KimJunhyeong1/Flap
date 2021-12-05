@@ -1,0 +1,26 @@
+.title-content {
+  width: 29.3rem;
+  height: 4rem;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+}
+
+.title-content__text {
+  width: 23.8rem;
+  height: 3.6rem;
+  flex-grow: 0;
+  font-family: BinggraeMelona;
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--primary-black);
+}

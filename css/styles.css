@@ -1,4 +1,11 @@
 @import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "screen/member_info_name.css";
+
+/* screen */
+@import "screen/loading.css";
 @import "screen/login.css";
 
 @font-face {
@@ -9,14 +16,12 @@
   font-style: normal;
 }
 
-body {
-  max-width: 580px;
-  font-family: "BinggraeMelona";
+html {
+  font-size: 62.5%;
 }
 
-.flap-logo-text {
-  display: flex;
+body {
+  font-family: "BinggraeMelona";
   height: calc(var(--vh, 1vh) * 100);
-  justify-content: center;
-  align-items: center;
+  box-sizing: border-box;
 }
