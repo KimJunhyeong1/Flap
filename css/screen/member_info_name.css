@@ -1,13 +1,13 @@
 @import "../components/mamber_info_bar.css";
 
-.member_info_name {
+.member_info {
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mamber_info_name_frame {
+.mamber_info_frame {
   width: 33.4rem;
   height: 60rem;
   display: flex;

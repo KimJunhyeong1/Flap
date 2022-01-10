@@ -1,0 +1,86 @@
+.profile-image-form {
+  width: 33.4rem;
+  height: 50rem;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.profile-image-form__selcet-image {
+  width: 33.4rem;
+  height: 19.7rem;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+  padding: 0;
+  font-family: BinggraeMelona;
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.profile-image-form__profile-input-box {
+  position: relative;
+}
+
+.profile-image-form__profile-input-box label {
+  display: inline-block;
+
+  outline: none;
+  width: 13.9rem;
+  height: 13.9rem;
+  background-color: var(--button-stroke);
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+}
+
+.profile-image-form__plus-icon {
+  position: absolute;
+  top: 35%;
+  left: 43%;
+}
+
+.profile-image-form__image-input {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.profile-image-form__submit-btn {
+  width: 31rem;
+  height: 8.3rem;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  padding: 0;
+}
+
+.profile-image-form__submit-btn span {
+  font-family: BinggraeMelona;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--primary-light-blue);
+}

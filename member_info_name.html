@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="css/styles.css" />
     <script type="text/javascript" src="index.js"></script>
     <title>Flap</title>
   </head>
   <body>
-    <section class="member_info_name">
-      <div class="mamber_info_name_frame">
+    <section class="member_info">
+      <div class="mamber_info_frame">
         <header class="title-content">
           <img
             class="title-content__flap-logo-img"
@@ -26,7 +27,12 @@
             />
             <img src="img/input-form__nickname-input-box-delete-btn.png" />
           </div>
-          <button class="input-form__primary-btn-false">다음</button>
+          <button
+            class="input-form__primary-btn-false"
+            onclick="location.href='member_info_profile.html'"
+          >
+            다음
+          </button>
         </form>
       </div>
     </section>
