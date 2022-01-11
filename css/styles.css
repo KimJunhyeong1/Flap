@@ -8,6 +8,7 @@
 @import "screen/login.css";
 @import "screen/member_info_name.css";
 @import "screen/member_info_profile.css";
+@import "screen/member_info_sex_age.css";
 
 @font-face {
   font-family: "BinggraeMelona";
