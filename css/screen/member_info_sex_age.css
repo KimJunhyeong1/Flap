@@ -1,7 +1,45 @@
+.member-info__group {
+  display: flex;
+  flex-direction: column;
+  width: 33.4rem;
+  height: 53rem;
+}
+
 .member-info__label {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0px;
+}
+
+.member-info__reserved img {
+  background: #c4c4c4;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.member-info__available img {
+  background: #c9e5f0;
+  /* Button/stroke */
+
+  border-radius: 50%;
+}
+
+.member-info__selected img {
+  background: #148ebf;
+  border-radius: 50%;
+}
+
+.text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Primary/black */
+
+  color: #000000;
 }
